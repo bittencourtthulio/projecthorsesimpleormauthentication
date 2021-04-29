@@ -14,7 +14,8 @@ uses
   ServerHorse.Controller.Interfaces in 'src\Controller\ServerHorse.Controller.Interfaces.pas',
   ServerHorse.Controller in 'src\Controller\ServerHorse.Controller.pas',
   ServerHorse.Routers.Users in 'src\Routers\ServerHorse.Routers.Users.pas',
-  ServerHorse.Utils in 'src\Utils\ServerHorse.Utils.pas';
+  ServerHorse.Utils in 'src\Utils\ServerHorse.Utils.pas',
+  ServerHorse.Utils.JWT in 'src\Utils\ServerHorse.Utils.JWT.pas';
 
 begin
   ServerHorse.Routers.Users.Registry;
